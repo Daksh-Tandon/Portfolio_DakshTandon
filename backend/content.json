@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Started Programming Journey",
+    "date": "2024-10-11",
+    "description": "Began learning programming fundamentals and problem solving.",
+    "technologies": ["C++"],
+    "highlights": [
+      "Learned basics of variables, loops, conditionals",
+      "Practiced basic pattern problems",
+      "Understood OOP fundamentals"
+    ],
+    "level": "Beginner"
+  },
+  {
+    "id": 2,
+    "title": "Data Structures & Algorithms",
+    "date": "2025-06-15",
+    "description": "Started solving DSA problems regularly and improved logical thinking.",
+    "technologies": ["C++", "Java"],
+    "highlights": [
+      "Solved 200+ DSA problems",
+      "Learned arrays, linked list, stack, queue",
+      "Mastered sliding window and recursion basics"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "id": 3,
+    "title": "Tree & Advanced DSA",
+    "date": "2025-09-20",
+    "description": "Focused on trees, recursion, binary search and dynamic programming.",
+    "technologies": ["Java"],
+    "highlights": [
+      "Practiced tree traversals (DFS, BFS)",
+      "Solved binary search pattern problems",
+      "Started dynamic programming"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "id": 4,
+    "title": "Frontend Development",
+    "date": "2025-01-12",
+    "description": "Started building UI projects using modern frontend tools.",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"],
+    "highlights": [
+      "Built portfolio website",
+      "Integrated GitHub API",
+      "Learned hooks and component-based architecture"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "id": 5,
+    "title": "Backend Development",
+    "date": "2026-01-13",
+    "description": "Explored backend concepts and REST APIs.",
+    "technologies": ["Node.js", "Express", "MongoDB"],
+    "highlights": [
+      "Built REST APIs",
+      "Connected frontend with backend"
+    ],
+    "level": "Beginner"
+  }
+]

@@ -1,0 +1,38 @@
+.achieve-text{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap:30px;
+  background-color:  #f1f5f9;;
+    padding: 20px;
+}
+
+
+.card img{
+    height:180px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 13px;
+    margin-bottom: 10px;
+}
+.card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #38bdf8;
+  letter-spacing: 0.5px;
+}
+.card p{
+    font-size:14px;
+    font-weight: 200;
+    line-height: 1.2rem;
+    color:black;
+}
+@media(max-width:768px){
+    .achieve-text{
+        grid-template-columns: 1fr;
+        padding: 10px;
+
+    }
+  
+}
