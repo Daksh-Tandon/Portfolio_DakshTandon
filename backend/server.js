@@ -4,6 +4,7 @@ import fs from "fs"
 const app=express();
 app.use(express.json())
 app.use(cors())
+const PORT = process.env.PORT || 5000;
 app.post('/contacts',(req,res)=>{
     const {name,mail}=req.body;
     if(name && mail){
@@ -24,4 +25,4 @@ app.get('/content',(req,res)=>{
     res.json(JSON.parse(data))
     
 })
-app.listen(4000,()=>console.log("server started"))
+app.listen(PORT,()=>console.log("server started"))
