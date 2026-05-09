@@ -5,6 +5,9 @@ const app=express();
 app.use(express.json())
 app.use(cors())
 const PORT = process.env.PORT || 5000;
+app.get("/", (req, res) => {
+  res.send("Backend running");
+});
 app.post('/contacts',(req,res)=>{
     const {name,mail}=req.body;
     if(name && mail){
