@@ -10,7 +10,7 @@ const Story = () => {
   useEffect(() => {
     const fetchdata = async () => {
       try {
-        const response = await fetch("http://localhost:4000/content");
+        const response = await fetch("https://portfolio-dakshtandon.onrender.com/content");
         const d = await response.json();
         setdata(d);
         console.log(d[0].id);

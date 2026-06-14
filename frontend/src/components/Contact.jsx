@@ -9,7 +9,7 @@ const Contact = () => {
     e.preventDefault();
     if(name.trim() && mail.trim()){
       setpending(true)
-       const res=await fetch("http://localhost:4000/contacts",{
+       const res=await fetch("https://portfolio-dakshtandon.onrender.com/contacts",{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
