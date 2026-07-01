@@ -15,8 +15,9 @@ A modern and responsive portfolio website showcasing my projects, technical skil
 
 ## Tech Stack
 
-* HTML
-* CSS
+* ReactJs
+* express.js
+* node.js
 * JavaScript
 * Bootstrap
 
