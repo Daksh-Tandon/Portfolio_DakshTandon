@@ -42,6 +42,9 @@ import React, { useEffect } from 'react'
         <ul className='card-ul'>
           <li>NUMPY</li>
           <li>PANDAS</li>
+          <li>Machine Learning</li>
+         <li>Langchain</li>
+         
          
         </ul>
       </div>
