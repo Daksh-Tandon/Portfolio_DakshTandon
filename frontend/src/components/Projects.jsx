@@ -47,8 +47,7 @@ const Projects = () => {
         );
         const result = await resp.json();
         
-        // Sirf best projects dikhao, saare nahi
-        const allowed = ["JobTracker", "Smart-Education-Mentor", "Placement-Preparation", "Recipe-Finder"];
+        const allowed = ["JobTracker", "Smart-Education-Mentor1", "Placement-Preparation_App", "Recipe-Finder"];
         const filtered = result.filter((repo) => 
           allowed.includes(repo.name) || !repo.fork
         );
